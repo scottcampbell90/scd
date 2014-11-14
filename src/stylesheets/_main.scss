@@ -1,0 +1,31 @@
+.body-container{
+	@extend .container;
+}
+
+.body-row{
+	@extend .row;
+}
+
+aside{ 
+	@extend .col-sm-4;
+	@extend .col-xs-6;
+
+}
+
+article{
+	@extend .col-sm-8;
+	@extend .col-xs-12;
+}
+
+$content-margin: 30%;
+
+.content{
+	margin: $content-margin 0;
+}
+
+a.anchor{display: block; position: relative; top: $content-margin; visibility: hidden;}
+
+footer{
+	margin:5%;
+	text-align:center;
+}

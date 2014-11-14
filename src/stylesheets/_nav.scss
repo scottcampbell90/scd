@@ -1,0 +1,14 @@
+#menu-nav{
+	list-style-type:none;
+	
+	@media (min-width: $screen-sm){
+		margin-top: 10%;
+	}
+	li{
+		display:block;
+		padding:10px;
+		text-align:center;
+		outline: 1px solid grey;
+	}
+}
+
