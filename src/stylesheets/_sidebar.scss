@@ -1,0 +1,30 @@
+
+#sidebar-affix, #sidebar-offcanvas{
+	
+}
+
+#menu-nav{
+	list-style-type:none;
+	width:175px;
+	@media (min-width: $screen-sm){
+		margin-top: 10%;
+		width:200px;
+	}
+	li{
+		display:block;
+		padding:5px;
+		text-align:right;
+		outline-right: 1px solid grey;
+		a{
+			color:#333;
+			border-right:2px solid #333;
+			
+		}
+		a:hover{
+			background-color:#000;
+			color:#fff;
+			@include single-text-shadow;
+		}
+	}
+}
+
