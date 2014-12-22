@@ -13,81 +13,86 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/styles.css" rel="stylesheet">
-
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="offcanvas.css" rel="stylesheet">
 
   </head>
 
   <body>
-    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+    <nav class="navbar navbar-fixed-top navbar-inverse navbar-right" role="navigation">
       <div class="container">
+      <!-- Navbar Header -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target="sidebar-offcanvas">
+          <button type="button" class="nav-tog navbar-toggle pull-left" data-toggle="offcanvas" data-target="sidebar-offcanvas">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">FB</a>
-          <a class="navbar-brand" href="#">TWTR</a>
-          <a class="navbar-brand" href="#">IG</a>
-          <a class="navbar-brand" href="#">LIn</a>
-        </div>
+
+            <ul class="nav navbar-nav">
+            <li ><a class="logo" href="index.html"><img src="img/sdc.png" alt="logo"></a></li>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-github"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+
+        </div><!-- Navbar Header -->
         
         </div><!-- /.nav-collapse -->
-      </div><!-- /.container -->
     </nav><!-- /.navbar -->
+
+
 
     <div class="container">
 
       <div class="row row-offcanvas row-offcanvas-left">
         
-        <aside class="sidebar-offcanvas" id="sidebar" role="navigation">
-          <div class="list-group" data-spy="affix" data-offset-top="50" data-offset-bottom="200">
-            <ul id="menu-nav">
-              <li class="logo">Logo</li>
-              <li><a href="#article1">Article 1</a></li>
-              <li><a href="#article2">Article 2</a></li>
-              <li><a href="#article3">Article 3</a></li>
-              <li><a href="#article4">Article 4</a></li>
-              <li><a href="#article5">Article 5</a></li>
+        <aside class="col-xs-12 col-sm-4 sidebar-offcanvas" id="sidebar">
+        <div data-spy="affix" data-offset-top="10" data-offset-bottom="150">
+
+            <ul class="nav nav-pills nav-stacked" id="menu-nav">
+              
+              <li><a href="#article1">About Me</a></li>
+              <li><a href="#article2">Development</a></li>
+              <li><a href="#article3">Design</a></li>
+              <li><a href="#article4">Marketing</a></li>
+              <li><a href="#article5">Contact</a></li>
             </ul>
-          </div>
+            </div>
         </aside><!--/.sidebar-offcanvas-->
 
         <article class="col-xs-12 col-sm-8">
 
-          <div class="pull-right visible-xs">
-            <button class="btn btn-primary btn-sm" data-toggle="offcanvas" data-target="sidebar-offcanvas">Toggle Menu</button>
-          </div>
+          
           <a class="anchor" id="article1"></a>
           <div class="content">
-            <h1>Heading1</h1>
+            <h1>About Me</h1>
             <p>Bacon ipsum dolor amet venison chuck doner, cupim turkey ham hock porchetta biltong tail ground round pork chop salami. Chuck andouille shankle, tail hamburger pig bacon prosciutto. Sausage prosciutto beef ribs biltong filet mignon meatball pig frankfurter meatloaf cow. Flank tenderloin pastrami landjaeger tongue, sausage fatback biltong pork turkey hamburger ball tip bacon pork loin. Prosciutto bresaola chicken jerky kielbasa. Cow doner meatloaf frankfurter, fatback swine ham hock pig ribeye beef boudin pork bresaola filet mignon.</p>
             <a class="anchor" id="article2"></a>
           </div>
           
           <div class="content">
-            <h1>Heading2</h1>
+            <h1>Development</h1>
             <p>Bacon ipsum dolor amet venison chuck doner, cupim turkey ham hock porchetta biltong tail ground round pork chop salami. Chuck andouille shankle, tail hamburger pig bacon prosciutto. Sausage prosciutto beef ribs biltong filet mignon meatball pig frankfurter meatloaf cow. Flank tenderloin pastrami landjaeger tongue, sausage fatback biltong pork turkey hamburger ball tip bacon pork loin. Prosciutto bresaola chicken jerky kielbasa. Cow doner meatloaf frankfurter, fatback swine ham hock pig ribeye beef boudin pork bresaola filet mignon.</p>
             <a class="anchor" id="article3"></a>  
           </div>
           
           <div class="content">
-            <h1>Heading3</h1>
+            <h1>Design</h1>
             <p>Bacon ipsum dolor amet venison chuck doner, cupim turkey ham hock porchetta biltong tail ground round pork chop salami. Chuck andouille shankle, tail hamburger pig bacon prosciutto. Sausage prosciutto beef ribs biltong filet mignon meatball pig frankfurter meatloaf cow. Flank tenderloin pastrami landjaeger tongue, sausage fatback biltong pork turkey hamburger ball tip bacon pork loin. Prosciutto bresaola chicken jerky kielbasa. Cow doner meatloaf frankfurter, fatback swine ham hock pig ribeye beef boudin pork bresaola filet mignon.</p>
           <a class="anchor" id="article4"></a>  
           </div>
           
           <div class="content">
-            <h1>Heading4</h1>
+            <h1>Marketing</h1>
             <p>Bacon ipsum dolor amet venison chuck doner, cupim turkey ham hock porchetta biltong tail ground round pork chop salami. Chuck andouille shankle, tail hamburger pig bacon prosciutto. Sausage prosciutto beef ribs biltong filet mignon meatball pig frankfurter meatloaf cow. Flank tenderloin pastrami landjaeger tongue, sausage fatback biltong pork turkey hamburger ball tip bacon pork loin. Prosciutto bresaola chicken jerky kielbasa. Cow doner meatloaf frankfurter, fatback swine ham hock pig ribeye beef boudin pork bresaola filet mignon.</p>
             <a class="anchor" id="article5"></a>
           </div>
 
           <div class="content">
-            <h1>Heading5</h1>
+            <h1>Contact</h1>
             <p>Bacon ipsum dolor amet venison chuck doner, cupim turkey ham hock porchetta biltong tail ground round pork chop salami. Chuck andouille shankle, tail hamburger pig bacon prosciutto. Sausage prosciutto beef ribs biltong filet mignon meatball pig frankfurter meatloaf cow. Flank tenderloin pastrami landjaeger tongue, sausage fatback biltong pork turkey hamburger ball tip bacon pork loin. Prosciutto bresaola chicken jerky kielbasa. Cow doner meatloaf frankfurter, fatback swine ham hock pig ribeye beef boudin pork bresaola filet mignon.</p>
           </div>
 
@@ -97,25 +102,37 @@
       </div><!--/row-->
 
       <hr>
+    </div>
 
-      <footer>
-        <p>&copy; Company 2014</p>
-      </footer>
+    <footer>
+      <p>Scott D Campbell | &copy; 2014</p>
+    </footer>
 
-    </div><!--/.container-->
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script src="js/bootstrap.js"
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-
+		<script src="js/bootstrap.js"></script>
     <script src="js/offcanvas.js"></script>
     <script src="js/affix.js"></script>
+    <script>
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
     
 		
   </body>
